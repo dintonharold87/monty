@@ -30,3 +30,16 @@ Run the interpreter on a file:
 ./monty file.m
 ```
 
+## Table of contents
+
+File | Description
+---- | -----------
+[main.c](./main.c) | entry point of the program
+[monty.h](./monty.h) | main header file
+[lists.h](./lists.h) | header file for the lists functions
+[get_func.c](./get_func.c) | function that picks the right function for the instruction
+[list_funcs1.c](./list_funcs1.c) | doubly linked list functions
+[list_funcs2.c](./list_funcs2.c) | doubly linked list functions
+[strtow.c](./strtow.c) | string tokenizing functions
+[free.c](./free.c) | memory handling functions
+
