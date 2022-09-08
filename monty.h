@@ -69,6 +69,7 @@ typedef struct data_s
 	char **words;
 	stack_t *stack;
 	FILE *fptr;
+	int qflag;
 } data_t;
 
 typedef stack_t dlistint_t;
