@@ -81,7 +81,6 @@ void push_handler(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 }
-
 /**
  * pall_handler - handles the pall instruction
  * @stack: double pointer to the stack to push to
