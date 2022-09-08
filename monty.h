@@ -3,7 +3,6 @@
 
 #define _POSIX_C_SOURCE  200809L
 #define _GNU_SOURCE
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -76,7 +75,7 @@ typedef stack_t dlistint_t;
 
 extern data_t data;
 
-#define DATA_INIT {NULL, NULL, NULL, NULL}
+#define DATA_INIT {NULL, NULL, NULL, NULL, 0}
 #define USAGE "USAGE: monty file\n"
 #define FILE_ERROR "Error: Can't open file %s\n"
 #define UNKNOWN "L%u: unknown instruction %s\n"
