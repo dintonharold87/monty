@@ -86,12 +86,18 @@ void (*get_func(char **parsed))(stack_t **, unsigned int);
 void push_handler(stack_t **stack, unsigned int line_number);
 void pall_handler(stack_t **stack, unsigned int line_number);
 
-/* handler_funcs.c */
+/* handler_funcs1.c */
 void pint_handler(stack_t **stack, unsigned int line_number);
 void pop_handler(stack_t **stack, unsigned int line_number);
 void swap_handler(stack_t **stack, unsigned int line_number);
 void add_handler(stack_t **stack, unsigned int line_number);
 void nop_handler(stack_t **stack, unsigned int line_number);
+
+/* handler_funcs2.c */
+void sub_handler(stack_t **stack, unsigned int line_number);
+void div_handler(stack_t **stack, unsigned int line_number);
+void mul_handler(stack_t **stack, unsigned int line_number);
+void mod_handler(stack_t **stack, unsigned int line_number);
 
 /* strtow.c */
 int count_word(char *s);
