@@ -16,7 +16,6 @@ void monty(args_t *args)
 	size_t len = 0;
 	int get = 0;
 	void (*code_func)(stack_t **, unsigned int);
-	stack_t *stack = NULL;
 
 	if (args->ac != 2)
 	{
